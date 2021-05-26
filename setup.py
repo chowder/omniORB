@@ -15,7 +15,7 @@ os.chdir(this_dir)
 
 setup_args = dict(
     name='omniorb',
-    version='4.2.3',
+    version='4.2.4',
     description='Python bindings for omniORB',
     long_description='Python bindings for omniORB',
     author='Duncan Grisby et al',
@@ -25,8 +25,8 @@ setup_args = dict(
 
     packages=['omniORB'],
     package_dir = {'': 'omniORB/src/lib/omniORBpy/' + ('python' if sys.version_info[0] == 2 else 'python3')},
-    # package_data={"omniORB": [r"omniORB\bin\x86_win32\omniORB423_vc14_rt.dll"]},
-    data_files=[("lib\\site-packages", [r"omniORB\bin\x86_win32\omniORB423_vc14_rt.dll", r"omniORB\bin\x86_win32\omnithread41_vc14_rt.dll"])],
+    # package_data={"omniORB": [r"omniORB\bin\x86_win32\omniORB424_vc14_rt.dll"]},
+    data_files=[("lib\\site-packages", [r"omniORB\bin\x86_win32\omniORB424_vc14_rt.dll", r"omniORB\bin\x86_win32\omnithread41_vc14_rt.dll"])],
 
 )
 
