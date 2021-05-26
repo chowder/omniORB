@@ -1,19 +1,6 @@
 environment:
   matrix:
-    - PYTHON: "Python27"
-      BUILD_ARCH: "x86"
-    - PYTHON: "Python35"
-      BUILD_ARCH: "x86"
-    - PYTHON: "Python36"
-      BUILD_ARCH: "x86"
-    - PYTHON: "Python37"
-      BUILD_ARCH: "x86"
-
     - PYTHON: "Python27-x64"
-      BUILD_ARCH: "x64"
-    - PYTHON: "Python35-x64"
-      BUILD_ARCH: "x64"
-    - PYTHON: "Python36-x64"
       BUILD_ARCH: "x64"
     - PYTHON: "Python37-x64"
       BUILD_ARCH: "x64"
