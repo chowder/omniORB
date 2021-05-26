@@ -1,3 +1,134 @@
+Sun  5 Apr 23:30:26 BST 2020
+============================
+
+- This is omniORB 4.2.4.
+
+
+Sat  4 Apr 15:08:26 BST 2020
+============================
+
+- Updates for omniORB 4.2.4.
+
+README.FIRST.txt
+ReleaseChecklist.txt
+ReleaseNotes.txt
+THIS_IS_OMNIORB_4_2_3
+THIS_IS_OMNIORB_4_2_4
+configure.ac
+configure
+contrib/RPMs/omniORB.spec
+contrib/RPMs/omniORB_new.spec
+mk/version.mk
+
+
+Tue 24 Mar 22:09:17 GMT 2020
+============================
+
+- Avoid throw specification on C++17 compilers.
+
+include/omniORB4/CORBA_sysdep.h
+include/omniORB4/internal/orbOptions.h
+src/lib/omniORB/orbcore/codeSets.cc
+src/lib/omniORB/orbcore/corbaOrb.cc
+src/lib/omniORB/orbcore/cs-UTF-8.cc
+src/lib/omniORB/orbcore/current.cc
+src/lib/omniORB/orbcore/dynamicLib.cc
+src/lib/omniORB/orbcore/giopBiDir.cc
+src/lib/omniORB/orbcore/giopEndpoint.cc
+src/lib/omniORB/orbcore/giopRope.cc
+src/lib/omniORB/orbcore/giopServer.cc
+src/lib/omniORB/orbcore/giopStrand.cc
+src/lib/omniORB/orbcore/giopStreamImpl.cc
+src/lib/omniORB/orbcore/initRefs.cc
+src/lib/omniORB/orbcore/invoker.cc
+src/lib/omniORB/orbcore/objectAdapter.cc
+src/lib/omniORB/orbcore/omniInternal.cc
+src/lib/omniORB/orbcore/omniObjRef.cc
+src/lib/omniORB/orbcore/omniTransport.cc
+src/lib/omniORB/orbcore/orbOptions.cc
+src/lib/omniORB/orbcore/orbOptionsFile.cc
+src/lib/omniORB/orbcore/poa.cc
+src/lib/omniORB/orbcore/ssl/sslTransportImpl.cc
+src/lib/omniORB/orbcore/transportRules.cc
+
+
+Sat  8 Feb 22:55:25 GMT 2020
+============================
+
+- Platform file for Visual Studio 16 / 2019.
+
+config/config.mk
+mk/platforms/x86_win32_vs_16.mk
+
+
+Tue 17 Dec 14:45:43 GMT 2019
+============================
+
+- Minor doc updates.
+
+doc/omniORB.pdf
+doc/omniORB/omniORB.html
+doc/omniORB/omniORB001.html
+doc/omniORB/omniORB015.html
+doc/tex/omniORB.tex
+
+
+Tue 17 Dec 14:26:56 GMT 2019
+============================
+
+- README updates.
+
+README.FIRST.txt
+README.unix.txt
+
+
+Thu 26 Sep 12:47:44 BST 2019
+============================
+
+- Regenerate HTML documentation with newer hevea.
+
+doc/omniORB/contents_motif.gif
+doc/omniORB/contents_motif.svg
+doc/omniORB/index.html
+doc/omniORB/next_motif.gif
+doc/omniORB/next_motif.svg
+doc/omniORB/omniORB.html
+doc/omniORB/omniORB001.html
+doc/omniORB/omniORB002.html
+doc/omniORB/omniORB003.html
+doc/omniORB/omniORB004.html
+doc/omniORB/omniORB005.html
+doc/omniORB/omniORB006.html
+doc/omniORB/omniORB007.html
+doc/omniORB/omniORB008.html
+doc/omniORB/omniORB009.html
+doc/omniORB/omniORB010.html
+doc/omniORB/omniORB011.html
+doc/omniORB/omniORB012.html
+doc/omniORB/omniORB013.html
+doc/omniORB/omniORB014.html
+doc/omniORB/omniORB015.html
+doc/omniORB/omniORB016.html
+doc/omniORB/previous_motif.gif
+doc/omniORB/previous_motif.svg
+
+
+Tue  2 Jul 21:33:32 BST 2019
+============================
+
+- Missing break in previous check-in.
+
+src/lib/omniORB/orbcore/unix/unixTransportImpl.cc
+
+
+Mon  1 Jul 11:43:00 BST 2019
+============================
+
+- Race condition creating unix transport socket directory.
+
+src/lib/omniORB/orbcore/unix/unixTransportImpl.cc
+
+
 Wed 20 Mar 16:39:02 GMT 2019
 ============================
 
